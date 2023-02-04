@@ -6,4 +6,4 @@ function feetToInch(feet) {
 }
 let inputFeet = 5;
 const result = feetToInch(inputFeet);
-console.log(result);
+console.log(inputFeet, "Feet =", result, "Inch");
