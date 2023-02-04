@@ -20,7 +20,6 @@ function paperRequirements(book1, book2, book3) {
     const totalPage = book1 * book1page + book2 * book2page + book3 * book3page;
     return totalPage;
 }
-
 const inputBook1Quantity = 2;
 const inputBook2Quantity = 3;
 const inputBook3Quantity = 4;

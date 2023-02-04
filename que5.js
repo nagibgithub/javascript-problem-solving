@@ -7,9 +7,8 @@
 // তাহলে লুপটা স্টপ করে দিবে। 
 // এবং লুপ বন্ধ করার আগ পর্যন্ত যতগুলা পজিটিভ সংখ্যা পাওয়া গেছে সেগুলা রিটার্ন করে দিবে। 
 
-
-let positiveNumArr = [];
 function positiveNumbers(numArray) {
+    let positiveNumArr = [];
     for (let i = 0; i < numArray.length; i++) {
         const num = numArray[i];
         if (num > 0) {
