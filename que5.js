@@ -9,7 +9,6 @@
 
 
 let positiveNumArr = [];
-
 function positiveNumbers(numArray) {
     for (let i = 0; i < numArray.length; i++) {
         const num = numArray[i];
@@ -21,7 +20,6 @@ function positiveNumbers(numArray) {
     }
     return positiveNumArr;
 }
-
 const inputnumArray = [20,44,16,18,12,4,22,30,8,33,19,42,-39,7,16,32,30,38,4,20,36,19];
 const result = positiveNumbers(inputnumArray);
 console.log("Only Positive Numbers =", result);
