@@ -36,11 +36,11 @@ function radianToDegree(radian) {
 function isJavaScriptFile(fileName) {
     const fileLen = fileName.length;
     let fileType = "";
+    if (typeof fileName !== "string" || fileName.length == 0) {
+        return "Type valid file name"
+    }
     for (let i = fileLen - 3; i < fileLen; i++) {
         fileType = fileType + fileName[i];
-    }
-    if (fileName !== "string" || fileName.length == 0) {
-        return "Type valid file name"
     }
     if (fileType == ".js") {
         return true;
@@ -51,7 +51,7 @@ function isJavaScriptFile(fileName) {
     if (typeof fileName != "string" || fileName.length == 0) {
         return "Type valid file name";
     }
-  if (fileName.endsWith(".js")){
+    if (fileName.endsWith(".js")){
       return true;
     }
     return false;
